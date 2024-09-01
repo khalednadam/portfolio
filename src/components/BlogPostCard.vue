@@ -1,21 +1,18 @@
 <script setup>
-import { urlFor } from '../plugins/sanity';
-
+import { urlFor } from "../plugins/sanity";
 
 const props = defineProps({
   title: String,
   id: String,
   tags: Array,
   cover: String,
-  date: String
-})
-
+  date: String,
+});
 </script>
 <template>
   <div>
     <v-card variant="outlined">
-      <v-img :src="urlFor(cover).url()" height="100" cover>
-      </v-img>
+      <v-img :src="urlFor(cover).url()" height="100" cover> </v-img>
       <v-card-title>
         <p class="max-w-full truncate">
           {{ title }}
@@ -23,10 +20,16 @@ const props = defineProps({
       </v-card-title>
       <v-card-text>
         <div class="mb-2">
-          {{ new Date(date).toLocaleString("en-GB", { year: 'numeric', month: 'short', day: '2-digit' }) }}
+          {{
+            new Date(date).toLocaleString("en-GB", {
+              year: "numeric",
+              month: "short",
+              day: "2-digit",
+            })
+          }}
         </div>
         <template v-for="tag in tags" :key="tag">
-          <v-chip class="mx-1">
+          <v-chip class="m-1">
             {{ tag }}
           </v-chip>
         </template>
@@ -39,4 +42,3 @@ const props = defineProps({
     </v-card>
   </div>
 </template>
-
