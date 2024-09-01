@@ -24,7 +24,7 @@ onMounted(async () => {
 </script>
 <template>
   <div v-if="post">
-    <h2>
+    <h2 class="text-center mb-5">
       {{ post.title }}
     </h2>
     <v-img :src="urlFor(post.cover).url()" height="300"> </v-img>
@@ -45,3 +45,26 @@ onMounted(async () => {
     <p>Loading</p>
   </div>
 </template>
+<style lang="css">
+ol > li {
+  list-style-type: decimal;
+}
+ul > li {
+  list-style: disc;
+}
+h1 {
+  @apply text-3xl lg:text-3xl font-black;
+}
+
+h2 {
+  @apply text-2xl lg:text-2xl font-bold;
+}
+
+h3 {
+  @apply text-xl lg:text-xl font-bold;
+}
+
+h4 {
+  @apply text-lg lg:text-lg font-bold;
+}
+</style>
