@@ -37,7 +37,7 @@ onMounted(async () => {
         })
       }}
     </p>
-    <div class="mt-5 mb-20 md:text-lg text-lg">
+    <div class="mt-5 mb-20 md:text-lg text-lg px-8 lg:px-0">
       <p v-html="toHTML(post.content)"></p>
     </div>
   </div>
