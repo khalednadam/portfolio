@@ -14,6 +14,10 @@ const skills = [
     name: "TypeScript",
   },
   {
+    icon: "logos:laravel",
+    name: "Laravel",
+  },
+  {
     icon: "logos:vue",
     name: "Vue",
   },
