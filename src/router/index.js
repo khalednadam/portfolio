@@ -30,15 +30,15 @@ const router = createRouter({
       },
       component: () => import('../views/Experience.vue'),
     },
-    {
-      path: "/blog",
-      name: "Blog",
-      meta: {
-        layout: MainLayout,
-        title: "Khaled | Blog"
-      },
-      component: () => import('../views/Blog.vue'),
-    },
+    // {
+    //   path: "/blog",
+    //   name: "Blog",
+    //   meta: {
+    //     layout: MainLayout,
+    //     title: "Khaled | Blog"
+    //   },
+    //   component: () => import('../views/Blog.vue'),
+    // },
     {
       path: "/links",
       name: "Links",

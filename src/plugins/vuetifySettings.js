@@ -6,13 +6,6 @@ import { mdi } from "vuetify/iconsets/mdi";
 const dark = {
   dark: true,
   colors: {
-    // primary: "#f0ae00",
-    // info: "#137100",
-    // success: "#05b187",
-    // accent: "#fc4b6c",
-    // warning: "#fec90f",
-    // error: "#fc4b6c",
-    // secondary: "#f0ae00",
     primary: "#002379",
     secondary: "#FF5F00",
     third: "#FF9F66",
@@ -33,13 +26,6 @@ const dark = {
 const light = {
   dark: false,
   colors: {
-    // primary: "#f0ae00",
-    // info: "#137100",
-    // success: "#05b187",
-    // accent: "#fc4b6c",
-    // warning: "#fec90f",
-    // error: "#fc4b6c",
-    // secondary: "#f0ae00",
     primary: "#002379",
     secondary: "#FF5F00",
     third: "#FF9F66",
