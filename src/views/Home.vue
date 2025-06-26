@@ -129,7 +129,7 @@ const skills = [
               Experience
             </v-btn>
             <a
-              href="https://drive.google.com/uc?export=download&id=1zJxzCBVbQV3MYrdXeg_Q2YH2kV_Y7VeQ"
+              href="https://drive.google.com/uc?export=download&id=175BvUk8bIDDpGOx2mwxrNuPeiyCu4F9p"
               class="download-button"
               download
             >
